@@ -1,0 +1,866 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <!-- 파비콘 -->
+    <link rel="apple-touch-icon" sizes="57x57" href="./favicon/apple-icon-57x57.png">
+    <link rel="apple-touch-icon" sizes="60x60" href="./favicon/apple-icon-60x60.png">
+    <link rel="apple-touch-icon" sizes="72x72" href="./favicon/apple-icon-72x72.png">
+    <link rel="apple-touch-icon" sizes="76x76" href="./favicon/apple-icon-76x76.png">
+    <link rel="apple-touch-icon" sizes="114x114" href="./favicon/apple-icon-114x114.png">
+    <link rel="apple-touch-icon" sizes="120x120" href="./favicon/apple-icon-120x120.png">
+    <link rel="apple-touch-icon" sizes="144x144" href="./favicon/apple-icon-144x144.png">
+    <link rel="apple-touch-icon" sizes="152x152" href="./favicon/apple-icon-152x152.png">
+    <link rel="apple-touch-icon" sizes="180x180" href="./favicon/apple-icon-180x180.png">
+    <link rel="icon" type="image/png" sizes="192x192"  href="./favicon/android-icon-192x192.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="./favicon/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="96x96" href="./favicon/favicon-96x96.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="./favicon/favicon-16x16.png">
+    <link rel="manifest" href="/manifest.json">
+    <meta name="msapplication-TileColor" content="#ffffff">
+    <meta name="msapplication-TileImage" content="./favicon/ms-icon-144x144.png">
+    <meta name="theme-color" content="#ffffff">
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="./css/reset.css">
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="./css/bannerslide.css">
+    <link
+      rel="stylesheet"
+      href="https://unpkg.com/swiper/swiper-bundle.min.css"
+    />
+
+    <!-- 폰트 -->
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700;900&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@300;400;500;700&family=Nunito+Sans:wght@300;400;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- page -->
+    <div class="page">
+        <!-- main-header -->
+        <header class="main-header">
+            <!-- main-header > container -->
+            <div class="container">
+                <!-- main-header > content -->
+                <div class="content">
+                    <h1 style="background-image: url('./img/logo_bk.png');" class="main-logo ir">홍루이젠</h1>
+                    <!-- main-nav -->
+                    <nav class="main-nav">
+                        <!-- main-nav-list -->
+                        <ul class="main-nav-list">
+                            <li class="main-nav-item sub-nav-item info"><a href="#">브랜드소개</a></li>
+                            <li class="main-nav-item"><a href="#">브랜드관</a></li>
+                            <li class="main-nav-item sub-nav-item menu"><a href="#">메뉴</a></li>
+                            <li class="main-nav-item sub-nav-item guide"><a href="#">매장안내</a></li>
+                            <li class="main-nav-item sub-nav-item community"><a href="#">커뮤니티</a></li>
+                            <li class="main-nav-item"><a href="#">쇼핑하기</a></li>
+                        </ul>
+                        <!-- //main-nav-list -->
+                    </nav>
+                    <!-- //main-nav -->
+                    <!-- convenient -->
+                    <div class="convenient">
+                        <!-- login-area -->
+                        <div class="login-area">
+                            <a class="login-button" href="#">LOGIN</a>
+                            <a class="join-button" href="#">JOIN</a>
+                        </div>
+                        <!-- //login-area -->
+                        <!-- site-link -->
+                        <div class="site-link">
+                            <a class="company-link" href="#">COMPANY</a>
+                            <a class="brand-link active" href="#">BRAND</a>
+                        </div>
+                        <!-- //site-link -->
+                        <button type="button" class="all-menu-button ir">전체메뉴</button>
+                    </div>
+                    <!-- //convenient -->
+                </div>
+                <!-- //main-header > content -->
+            </div>
+            <!-- //main-header > container -->
+            <!-- nav-detail -->
+            <div class="nav-detail">
+                <div class="container">
+                    <div class="content">
+                        <ul class="detail-nav-wrap">
+                            <li class="detail-nav-wrap-item info-item">
+                                <h2 class="detail-nav-title">브랜드소개</h2>
+                                <ul class="detail-nav-list">
+                                    <li class="detail-nav-item"><a href="#">홍루이젠 소개</a></li>
+                                    <li class="detail-nav-item"><a href="#">브랜드 철학</a></li>
+                                    <li class="detail-nav-item"><a href="#">히스토리</a></li>
+                                </ul>
+                                <img class="detail-img" width="100%" src="./img/sub-nav-img1.jpg" alt="하나의 샌드위치에 담긴 수 많은 매력">
+                            </li>
+                            <li class="detail-nav-wrap-item menu-item">
+                                <h2 class="detail-nav-title">메뉴</h2>
+                                <ul class="detail-nav-list">
+                                    <li class="detail-nav-item"><a href="#">전체</a></li>
+                                    <li class="detail-nav-item"><a href="#">신제품</a></li>
+                                    <li class="detail-nav-item"><a href="#">소프트 샌드위치</a></li>
+                                    <li class="detail-nav-item"><a href="#">갓군샌</a></li>
+                                    <li class="detail-nav-item"><a href="#">프레시 샌드위치</a></li>
+                                    <li class="detail-nav-item"><a href="#">디저트</a></li>
+                                    <li class="detail-nav-item"><a href="#">음료</a></li>
+                                </ul>
+                                <img class="detail-img" width="100%" src="./img/sub-nav-img2.jpg" alt="하나의 샌드위치에 담긴 수 많은 매력">
+                            </li>
+                            <li class="detail-nav-wrap-item guide-item">
+                                <h2 class="detail-nav-title">매장안내</h2>
+                                <ul class="detail-nav-list">
+                                    <li class="detail-nav-item"><a href="#">매장 찾기</a></li>
+                                    <li class="detail-nav-item"><a href="#">단체 주문</a></li>
+                                </ul>
+                                <img class="detail-img" width="100%" src="./img/sub-nav-img3.jpg" alt="하나의 샌드위치에 담긴 수 많은 매력">
+                            </li>
+                            <li class="detail-nav-wrap-item community-item">
+                                <h2 class="detail-nav-title">커뮤니티</h2>
+                                <ul class="detail-nav-list">
+                                    <li class="detail-nav-item"><a href="#">홍루이젠 소식</a></li>
+                                    <li class="detail-nav-item"><a href="#">프레스센터</a></li>
+                                    <li class="detail-nav-item"><a href="#">이벤트</a></li>
+                                    <li class="detail-nav-item"><a href="#">고객의 소리</a></li>
+                                </ul>
+                                <img class="detail-img" width="100%" src="./img/sub-nav-img4.jpg" alt="하나의 샌드위치에 담긴 수 많은 매력">
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>            
+            <!-- //nav-detail -->
+        </header>
+        <!-- //main-header -->
+        <aside class="all-menu-aside">
+            <div class="all-menu-wrap">
+                <div class="container">
+                    <div class="content">
+                        <div class="title-area">
+                            <img class="menu-logo" src="./img/logo_bk.png" alt="">
+                        </div>
+                        <div class="menu-area">
+                            <ul class="all-menu-list">
+                                <li class="all-menu-item">
+                                    <h2>브랜드소개</h2>
+                                    <div class="menu-list-wrap">
+                                        <ul class="menu-list">
+                                            <li class="menu-item"><a href="#">홍루이젠 소개</a></li>
+                                            <li class="menu-item"><a href="#">브랜드 철학</a></li>
+                                            <li class="menu-item"><a href="#">히스토리</a></li>
+                                        </ul>
+                                        <div class="menu-acc"></div>
+                                    </div>
+                                </li>
+                                <li class="all-menu-item">
+                                    <h2>브랜드관</h2>
+                                    <div class="menu-list-wrap">
+                                        <ul class="menu-list">
+                                            <li class="menu-item"><a href="#">브랜드관</a></li>
+                                        </ul>
+                                        <div class="menu-acc"></div>
+                                    </div>
+                                </li>
+                                <li class="all-menu-item">
+                                    <h2>메뉴</h2>
+                                    <div class="menu-list-wrap">
+                                        <ul class="menu-list">
+                                            <li class="menu-item"><a href="#">전체</a></li>
+                                            <li class="menu-item"><a href="#">신제품</a></li>
+                                            <li class="menu-item"><a href="#">소프트 샌드위치</a></li>
+                                            <li class="menu-item"><a href="#">갓군샌</a></li>
+                                            <li class="menu-item"><a href="#">프레시 샌드위치</a></li>
+                                            <li class="menu-item"><a href="#">디저트</a></li>
+                                            <li class="menu-item"><a href="#">음료</a></li>
+                                        </ul>
+                                        <div class="menu-acc"></div>
+                                    </div>
+                                </li>
+                                <li class="all-menu-item">
+                                    <h2>매장안내</h2>
+                                    <div class="menu-list-wrap">
+                                        <ul class="menu-list">
+                                            <li class="menu-item"><a href="#">매장찾기</a></li>
+                                            <li class="menu-item"><a href="#">단체주문</a></li>
+                                        </ul>
+                                        <div class="menu-acc"></div>
+                                    </div>
+                                </li>
+                                <li class="all-menu-item">
+                                    <h2>커뮤니티</h2>
+                                    <div class="menu-list-wrap">
+                                        <ul class="menu-list">
+                                            <li class="menu-item"><a href="#">홍루이젠 소식</a></li>
+                                            <li class="menu-item"><a href="#">프레스센터</a></li>
+                                            <li class="menu-item"><a href="#">이벤트</a></li>
+                                            <li class="menu-item"><a href="#">고객의 소리</a></li>
+                                        </ul>
+                                        <div class="menu-acc"></div>
+                                    </div>
+                                </li>
+                                <li class="all-menu-item">
+                                    <h2>쇼핑하기</h2>
+                                    <div class="menu-list-wrap">
+                                        <ul class="menu-list">
+                                            <li class="menu-item"><a href="#">쇼핑하기</a></li>
+                                        </ul>
+                                        <div class="menu-acc"></div>
+                                    </div>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <button class="all-menu-close ir" type="button">전체 메뉴 닫기</button>
+            </div>
+        </aside>
+        <!-- main content -->
+        <main>
+            <!-- banner-section -->
+            <section class="banner">
+                <ul class="banner-img-list">
+                    <li style="background-image: url('./img/img_banner.png');" class="banner-img"></li>
+                    <li style="background-image: url('./img/centerImage_47.png')"; class="banner-img"></li>
+                </ul>
+                <!-- banner > container -->
+                <div class="container">
+                    <!-- banner > content -->
+                    <div class="content">
+                        <!-- title-area -->
+                        <div class="title-area">
+                            <ul class="banner-content-list">
+                                <li class="banner-content-item">
+                                    <h2 class="banner-title">
+                                        샌드위치 베이커리<br />
+                                        <span>홍루이젠</span>
+                                    </h2>
+                                    <p class="banner-description">
+                                        바르고 건강한 샌드위치를 향한 홍루이젠의 약속,<br />
+                                        누구나 안심하고 먹을 수 있는 좋은 재료로 만듭니다.
+                                    </p>
+                                </li>
+                                <li class="banner-content-item">
+                                    <h2 class="banner-title">
+                                        갓 구워서 더 맛있는<br />
+                                        <span>갓군샌 시리즈</span>
+                                    </h2>
+                                    <p class="banner-description">
+                                        갓 구워서 따뜻하게 즐기는 든든함
+                                    </p>
+                                </li>
+                            </ul>
+                        </div>
+                        <!-- //title-area -->
+                        <!-- banner-list -->
+                        <ul class="banner-list">
+                            <li class="banner-item active">
+                                <p>01</p>
+                                <div style="background-image: url('./img/bread_active.png');" class="banner-icon"></div>
+                                <h3>샌드위치 베이커리</h3>
+                            </li>
+                            <li class="banner-item">
+                                <p>02</p>
+                                <div style="background-image: url('./img/croissant_default.png');" class="banner-icon"></div>
+                                <h3>갓군샌 등장!</h3>
+                            </li>
+                        </ul>
+                        <!-- //banner-list -->
+                        <!-- back-image-peace -->
+                        <div class="back-image-peace">
+                            <div class="peace-wrap1">
+                                <div class="peace peace1"></div>
+                            </div>
+                            <div class="peace-wrap2">
+                                <div class="peace peace2"></div>
+                            </div>
+                            <div class="peace-wrap3">
+                                <div class="peace peace3"></div>
+                            </div>
+                            <div class="peace-wrap4">
+                                <div class="peace peace4"></div>
+                            </div>
+                            <div class="peace-wrap5">
+                                <div class="peace peace5"></div>
+                            </div>
+                            <div class="peace-wrap6">
+                                <div class="peace peace6"></div>
+                            </div>
+                        </div>
+                        <!-- //back-image-peace -->
+                    </div>
+                    <!-- //banner > content -->
+                </div>
+                <!-- //banner > container -->
+            </section>
+            <!-- //banner-section -->
+            <!-- product-section -->
+            <section class="product-section">
+                <!-- product-section > container -->
+                <div class="container">
+                    <!-- product-section > content -->
+                    <div class="content">
+                        <h2 class="section-title">
+                            PRODUCT
+                        </h2>
+                        <!-- product-nav-list -->
+                        <ul class="product-nav-list">
+                            <li class="product-nav-item active"><a href="#">NEW</a></li>
+                            <li class="product-nav-item"><a href="#">SANDWICH</a></li>
+                            <li class="product-nav-item"><a href="#">DESSERT</a></li>
+                            <li class="product-nav-item"><a href="#">DRINK</a></li>
+                        </ul>
+                        <!-- //product-nav-list -->
+                        <!-- productSwiper -->
+                        <div class="productSwiper">
+                            <!-- product-list -->
+                            <ul class="swiper-wrapper product-list">
+                                <li class="swiper-slide product-item">
+                                    <a>
+                                        <img class="product-image" src="./img/menu1.png" alt="호밀빵 치즈 샌드위치" width="100%">
+                                        <div class="text-area">
+                                            <h3 class="product-name">호밀빵 치즈 샌드위치</h3>
+                                            <p class="product-description">더 건강해진 호밀빵 치즈 샌드위치</p>
+                                        </div>
+                                    </a>
+                                </li>
+                                <li class="swiper-slide product-item">
+                                    <a>
+                                        <img class="product-image" src="./img/menu2.png" alt="호밀빵 치즈 샌드위치" width="100%">
+                                        <div class="text-area">
+                                            <h3 class="product-name">호밀빵 햄 샌드위치</h3>
+                                            <p class="product-description">더 건강해진 호밀빵 햄 샌드위치</p>
+                                        </div>
+                                    </a>
+                                </li>
+                                <li class="swiper-slide product-item">
+                                    <a>
+                                        <img class="product-image" src="./img/menu3.png" alt="호밀빵 치즈 샌드위치" width="100%">
+                                        <div class="text-area">
+                                            <h3 class="product-name">호밀빵 햄치즈 샌드위치</h3>
+                                            <p class="product-description">더 건강해진 호밀빵 햄치즈 샌드위치</p>
+                                        </div>
+                                    </a>
+                                </li>
+                                <li class="swiper-slide product-item">
+                                    <a>
+                                        <img class="product-image" src="./img/menu4.png" alt="호밀빵 치즈 샌드위치" width="100%">
+                                        <div class="text-area">
+                                            <h3 class="product-name">프리미엄 식빵</h3>
+                                            <p class="product-description">프랑스산 생크림이 함유된 프리미엄 식빵</p>
+                                        </div>
+                                    </a>
+                                </li>
+                                <li class="swiper-slide product-item">
+                                    <a>
+                                        <img class="product-image" src="./img/menu5.png" alt="호밀빵 치즈 샌드위치" width="100%">
+                                        <div class="text-area">
+                                            <h3 class="product-name">체다치즈 크로플</h3>
+                                            <p class="product-description">단짠단짠 체다치즈와 즐기는 크로플</p>
+                                        </div>
+                                    </a>
+                                </li>
+                                <li class="swiper-slide product-item">
+                                    <a>
+                                        <img class="product-image" src="./img/menu6.png" alt="호밀빵 치즈 샌드위치" width="100%">
+                                        <div class="text-area">
+                                            <h3 class="product-name">마시멜로우 크로플</h3>
+                                            <p class="product-description">달콤한 마시멜로우와 즐기는 크로플</p>
+                                        </div>
+                                    </a>
+                                </li>
+                                <li class="swiper-slide product-item">
+                                    <a>
+                                        <img class="product-image" src="./img/menu7.png" alt="호밀빵 치즈 샌드위치" width="100%">
+                                        <div class="text-area">
+                                            <h3 class="product-name">아이스크림 크로플</h3>
+                                            <p class="product-description">달콤한 아이스크림과 즐기는 크로플</p>
+                                        </div>
+                                    </a>
+                                </li>
+                                <li class="swiper-slide product-item">
+                                    <a>
+                                        <img class="product-image" src="./img/menu8.png" alt="호밀빵 치즈 샌드위치" width="100%">
+                                        <div class="text-area">
+                                            <h3 class="product-name">크로플</h3>
+                                            <p class="product-description">겉바속촉 버터향 가득 크로플</p>
+                                        </div>
+                                    </a>
+                                </li>
+                            </ul>
+                            <!-- //product-list -->
+                            <div class="swiper-pagination"></div>
+                        </div>
+                        <!-- //productSwiper -->
+                        <!-- product-buttons -->
+                        <div class="product-buttons">
+                            <button type="button" class="new-button">What's New</button>
+                            <button type="button" class="all-button">All Product</button>
+                        </div>
+                        <!-- //product-buttons -->
+                    </div>
+                    <!-- //product-section > content -->
+                </div>
+                <!-- //product-section > container -->
+            </section>
+            <!-- //product-section -->
+            <!-- event-section -->
+            <section class="event-section">
+                <!-- event-section > container -->
+                <div class="container">
+                    <!-- event-section > content -->
+                    <div class="content">
+                        <h2 class="section-title">EVENT</h2>
+                        <!-- eventSwiper -->
+                        <div class="eventSwiper">
+                            <!-- event-list -->
+                            <ul class="swiper-wrapper event-list">
+                                <li class="swiper-slide event-item">
+                                    <a>
+                                        <div style="background-image: url('./img/event1.jpg');" class="event-image"></div>
+                                    </a>
+                                    <div class="hover-item-wrap">
+                                        <div class="hover-item">
+                                            <p>갓군샌 SNS 포토이벤트</p>
+                                            <div class="arrow-icon"></div>
+                                        </div>
+                                    </div>
+                                </li>
+                                <li class="swiper-slide event-item">
+                                    <a style="overflow: hidden;">
+                                        <div style="background-image: url('./img/event2.png');" class="event-image"></div>
+                                    </a>
+                                    <div class="hover-item-wrap">
+                                        <div class="hover-item">
+                                            <p>갓군샌 SNS 포토이벤트</p>
+                                            <div class="arrow-icon"></div>
+                                        </div>
+                                    </div>
+                                </li>
+                                <li class="swiper-slide event-item">
+                                    <a>
+                                        <div style="background-image: url('./img/event3.png');" class="event-image"></div>
+                                    </a>
+                                    <div class="hover-item-wrap">
+                                        <div class="hover-item">
+                                            <p>갓군샌 SNS 포토이벤트</p>
+                                            <div class="arrow-icon"></div>
+                                        </div>
+                                    </div>
+                                </li>
+                                <li class="swiper-slide event-item">
+                                    <a>
+                                        <div style="background-image: url('./img/event4.png');" class="event-image"></div>
+                                    </a>
+                                    <div class="hover-item-wrap">
+                                        <div class="hover-item">
+                                            <p>갓군샌 SNS 포토이벤트</p>
+                                            <div class="arrow-icon"></div>
+                                        </div>
+                                    </div>
+                                </li>
+                                <li class="swiper-slide event-item">
+                                    <a>
+                                        <div style="background-image: url('./img/event5.jpg');" class="event-image"></div>
+                                    </a>
+                                    <div class="hover-item-wrap">
+                                        <div class="hover-item">
+                                            <p>갓군샌 SNS 포토이벤트</p>
+                                            <div class="arrow-icon"></div>
+                                        </div>
+                                    </div>
+                                </li>
+                                <li class="swiper-slide event-item">
+                                    <a>
+                                        <div style="background-image: url('./img/event6.jpg');" class="event-image"></div>
+                                    </a>
+                                    <div class="hover-item-wrap">
+                                        <div class="hover-item">
+                                            <p>갓군샌 SNS 포토이벤트</p>
+                                            <div class="arrow-icon"></div>
+                                        </div>
+                                    </div>
+                                </li>
+                            </ul>
+                            <!-- //event-list -->
+                            <div class="swiper-pagination"></div>
+                        </div>
+                        <!-- //eventSwiper -->
+                    </div>
+                    <!-- //event-section > content -->
+                </div>
+                <!-- //event-section > container -->
+            </section>
+            <!-- //event-section -->
+            <!-- news-section -->
+            <section class="news-section">
+                <!-- news-section > container -->
+                <div class="container">
+                    <!-- news-section > content -->
+                    <div class="content">
+                        <h2 class="section-title">NEWS</h2>
+                        <!-- news-list -->
+                        <ul class="news-list">
+                            <!-- news-item1 -->
+                            <li class="news-item">
+                                <img src="./img/news1.jpg" alt="홍루이젠, 과일의 상큼함을 담은 프루티 요거트 3종 출시">
+                                <!-- text-area -->
+                                <div class="text-area">
+                                    <div class="news-label">NEWS</div>
+                                    <h3 class="news-item-title">홍루이젠, 과일의 상큼함을 담은 프루티 요거트 3종 출시</h3>
+                                    <p class="news-description">샌드위치 베이커리 홍루이젠 봄날의 파스텔 톤을 그대로 담은, 신메뉴 음료 '프루티 요거트 3종' 출시했다고 밝혔다. 홍루이젠의 신메뉴 프루티 요거트는 원유 99.97%의 전환율 아너안앙나</p>
+                                    <a class="news-detail-link" href="#">READ MORE</a>
+                                </div>
+                                <!-- //text-area -->
+                            </li>
+                            <!-- //news-item1 -->
+                            <!-- news-item2 -->
+                            <li class="news-item">
+                                <img src="./img/news1.jpg" alt="홍루이젠, 과일의 상큼함을 담은 프루티 요거트 3종 출시">
+                                <!-- text-area -->
+                                <div class="text-area">
+                                    <div class="news-label">NEWS</div>
+                                    <h3 class="news-item-title">홍루이젠, 과일의 상큼함을 담은 프루티 요거트 3종 출시</h3>
+                                    <p class="news-description">샌드위치 베이커리 홍루이젠 봄날의 파스텔 톤을 그대로 담은, 신메뉴 음료 '프루티 요거트 3종' 출시했다고 밝혔다. 홍루이젠의 신메뉴 프루티 요거트는 원유 99.97%의 전환율 아너안앙나</p>
+                                    <a class="news-detail-link" href="#">READ MORE</a>
+                                </div>
+                                <!-- //text-area -->
+                            </li>
+                            <!-- //news-item2 -->
+                        </ul>
+                        <!-- //news-list -->
+                    </div>
+                    <!-- //news-section > content -->
+                </div>
+                <!-- //news-section > container -->
+            </section>
+            <!-- //news-section -->
+            <!-- video-section -->
+            <section class="video-section">
+                <!-- video-section > container -->
+                <div class="container">
+                    <!-- video-section > content -->
+                    <div class="content">
+                        <h2 class="section-title">HONGRUIZHEN VIDEO</h2>
+                        <ul class="video-area-list">
+                            <li class="video-area-item">
+                                <!-- video-area -->
+                                <div class="video-area">
+                                    <!-- video-boxc -->
+                                    <div class="video-box">
+                                        <img width="100%" src="./img/thumbnail1.jpg" alt="">
+                                        <div class="iframe-wrap">
+                                            <iframe style="display: none;" src="https://www.youtube.com/embed/QyQEY9zDQbI" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                                        </div>
+                                    </div>
+                                    <!-- //video-box -->
+                                    <!-- video-info -->
+                                    <div class="video-info">
+                                        <!-- text-area -->
+                                        <div class="text-area">
+                                            <img class="text-logo" src="./img/logo_video.png" alt="홍루이젠TV 로고" />
+                                            <h3 class="video-item-title">오늘의 샌드위치 베이커리<br/>홍루이젠</h3>
+                                            <p class="video-item-description">홍루이젠의 새로운 소식을 영상으로 만나보세요!</p>
+                                        </div>
+                                        <!-- //text-area -->
+                                    </div>
+                                    <!-- //video-info -->
+                                </div>
+                                <!-- //video-area -->
+                            </li>
+                            <li class="video-area-item">
+                                <!-- video-area -->
+                                <div class="video-area">
+                                    <!-- video-boxc -->
+                                    <div class="video-box">
+                                        <img width="100%" src="./img/thumbnail2.jpg" alt="">
+                                        <div class="iframe-wrap">
+                                            <iframe style="display: none;" src="https://www.youtube.com/embed/VTTkU4SReM8" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                                        </div>
+                                    </div>
+                                    <!-- //video-box -->
+                                    <!-- video-info -->
+                                    <div class="video-info">
+                                        <!-- text-area -->
+                                        <div class="text-area">
+                                            <img class="text-logo" src="./img/logo_video.png" alt="홍루이젠TV 로고" />
+                                            <h3 class="video-item-title">오늘의 샌드위치 베이커리<br/>홍루이젠</h3>
+                                            <p class="video-item-description">홍루이젠의 새로운 소식을 영상으로 만나보세요!</p>
+                                        </div>
+                                        <!-- //text-area -->
+                                    </div>
+                                    <!-- //video-info -->
+                                </div>
+                                <!-- //video-area -->
+                            </li>
+                        </ul>
+                        <!-- video-list -->
+                        <ul class="video-list">
+                            <li style="background-image: url('./img/thumbnail1.jpg');" class="video-item active ir">오늘의 샌드위치 베이커리 홍루이젠</li>
+                            <li style="background-image: url('./img/thumbnail2.jpg');" class="video-item ir">오늘의 샌드위치 베이커리 홍루이젠</li>
+                        </ul>
+                        <!-- //video-list -->
+                    </div>
+                    <!-- //video-section > content -->
+                </div>
+                <!-- //video-section > container -->
+            </section>
+            <!-- //video-section -->
+            <!-- follow-section -->
+            <section class="follow-section">
+                <!-- follow-section > container -->
+                <div class="container">
+                    <!-- follow-section > content -->
+                    <div class="content">
+                        <h3 class="section-title">FOLLOW US</h3>
+                        <ul class="follow-link-list">
+                            <li class="follow-link-item">
+                                <div class="follow-item-wrap">
+                                    <a href="#"><img width="100%" src="./img/img_follow1.jpg" alt="" /></a>
+                                </div>
+                                <div class="follow-title">
+                                    <img src="./img/insta_mini.png" alt="인스타그램">
+                                    <p>@hungruichenkorea</p>
+                                </div>
+                            </li>
+                            <li class="follow-link-item">
+                                <div class="follow-item-wrap">
+                                    <a href="#"><img width="100%" src="./img/img_follow2.jpg" alt="" /></a>
+                                </div>
+                                <div class="follow-title">
+                                    <img src="./img/insta_mini.png" alt="인스타그램">
+                                    <p>@hungruichenkorea</p>
+                                </div>
+                            </li>
+                            <li class="follow-link-item">
+                                <div class="follow-item-wrap">
+                                    <a href="#"><img width="100%" src="./img/img_follow3.jpg" alt="" /></a>
+                                </div>
+                                <div class="follow-title">
+                                    <img src="./img/insta_mini.png" alt="인스타그램">
+                                    <p>@hungruichenkorea</p>
+                                </div>
+                            </li>
+                            <li class="follow-link-item">
+                                <div class="follow-item-wrap">
+                                    <a href="#"><img width="100%" src="./img/img_follow4.jpg" alt="" /></a>
+                                </div>
+                                <div class="follow-title">
+                                    <img src="./img/insta_mini.png" alt="인스타그램">
+                                    <p>@hungruichenkorea</p>
+                                </div>
+                            </li>
+                            <li class="follow-link-item">
+                                <div class="follow-item-wrap">
+                                    <a href="#"><img width="100%" src="./img/img_follow2.jpg" alt="" /></a>
+                                </div>
+                                <div class="follow-title">
+                                    <img src="./img/insta_mini.png" alt="인스타그램">
+                                    <p>@hungruichenkorea</p>
+                                </div>
+                            </li>
+                            <li class="follow-link-item">
+                                <div class="follow-item-wrap">
+                                    <a href="#"><img width="100%" src="./img/img_follow3.jpg" alt="" /></a>
+                                </div>
+                                <div class="follow-title">
+                                    <img src="./img/insta_mini.png" alt="인스타그램">
+                                    <p>@hungruichenkorea</p>
+                                </div>
+                            </li>
+                            <li class="follow-link-item">
+                                <div class="follow-item-wrap">
+                                    <a href="#"><img width="100%" src="./img/img_follow4.jpg" alt="" /></a>
+                                </div>
+                                <div class="follow-title">
+                                    <img src="./img/insta_mini.png" alt="인스타그램">
+                                    <p>@hungruichenkorea</p>
+                                </div>
+                            </li>
+                            <li class="follow-link-item">
+                                <div class="follow-item-wrap">
+                                    <a href="#"><img width="100%" src="./img/img_follow1.jpg" alt="" /></a>
+                                </div>
+                                <div class="follow-title">
+                                    <img src="./img/insta_mini.png" alt="인스타그램">
+                                    <p>@hungruichenkorea</p>
+                                </div>
+                            </li>
+                            <li class="follow-link-item">
+                                <div class="follow-item-wrap">
+                                    <a href="#"><img width="100%" src="./img/img_follow1.jpg" alt="" /></a>
+                                </div>
+                                <div class="follow-title">
+                                    <img src="./img/insta_mini.png" alt="인스타그램">
+                                    <p>@hungruichenkorea</p>
+                                </div>
+                            </li>
+                        </ul>
+                    </div>
+                    <!-- //follow-section > content -->
+                </div>
+                <!-- follow-section -->
+
+            </section>
+            <!-- //follow-section -->
+        </main>
+        <!-- //main content -->
+        <div class="rolling-text">
+            <div class="roll-text"><img width="50px" src="./img/sand_l.png" alt="홍루이젠 로고">SIMPLE·SWEET·SOFT SANDWICH HUNG RUI CHEN</div>
+        </div>
+        <!-- footer -->
+        <footer class="footer">
+            <!-- footer > container -->
+            <div class="container">
+                <!-- footer > content -->
+                <div class="content">
+                    <!-- comany-area -->
+                    <div class="company-area">
+                        <!-- footer-nav-list -->
+                        <ul class="footer-nav-list">
+                            <li class="footer-nav-item"><a href="#">브랜드 소개</a></li>
+                            <li class="footer-nav-item"><a href="#">브랜드관</a></li>
+                            <li class="footer-nav-item"><a href="#">매장안내</a></li>
+                        </ul>
+                        <!-- //footer-nav-list -->
+                        <!-- company-info -->
+                        <div class="company-info">
+                            <p>(주)타이웨이 대표이사:송원섭</p>
+                            <p>주소:경기도 고양시 덕양구 삼송로 12 반도유스퀘어 701,702호</p>
+                            <p>사업자등록번호:730-86-00779 가맹문의 대표번호:1566-8025</p>
+                        </div>
+                        <!-- //company-info -->
+                    </div>
+                    <!-- //comany-area -->
+                    <div class="logo-area">
+                        <img src="./img/footer_logo.png" alt="홍루이젠 로고" width="100%">
+                    </div>
+                    <!-- sns-area -->
+                    <div class="sns-area">
+                        <!-- footer-nav-list -->
+                        <ul class="footer-nav-list">
+                            <li class="footer-nav-item"><a href="#">메뉴</a></li>
+                            <li class="footer-nav-item"><a href="#">커뮤니티</a></li>
+                            <li class="footer-nav-item"><a href="#">쇼핑하기</a></li>
+                        </ul>
+                        <!-- //footer-nav-list -->
+                        <!-- sns-list -->
+                        <ul class="sns-list">
+                            <li class="sns-item instagram ir"><a href="#">인스타그램 링크</a></li>
+                            <li class="sns-item facebook ir"><a href="#">페이스북 링크</a></li>
+                            <li class="sns-item youtube ir"><a href="#">유튜브 링크</a></li>
+                        </ul>
+                        <!-- //sns-list -->
+                    </div>
+                    <!-- //sns-area -->
+                    <!-- footer-nav-mobile -->
+                    <ul class="footer-nav-mobile">
+                        <li class="footer-nav-item"><a href="#">브랜드 소개</a></li>
+                        <li class="footer-nav-item"><a href="#">브랜드관</a></li>
+                        <li class="footer-nav-item"><a href="#">매장안내</a></li>
+                        <li class="footer-nav-item"><a href="#">메뉴</a></li>
+                        <li class="footer-nav-item"><a href="#">커뮤니티</a></li>
+                        <li class="footer-nav-item"><a href="#">쇼핑하기</a></li>
+                    </ul>
+                    <!-- //footer-nav-mobile -->
+                </div>
+                <!-- //footer > content -->
+            </div>
+            <!-- //footer > container -->
+        </footer>
+        <!-- //footer -->
+        <!-- copy-right -->
+        <div class="copy-light">
+            <p>Copyright (c) HONG RUI CHEN CORP All right reserved.</p>
+        </div>
+        <!-- //copy-right -->
+    </div>
+    <!-- //page -->
+
+    <!-- jquery -->
+    <script
+  src="https://code.jquery.com/jquery-1.12.4.min.js"
+  integrity="sha256-ZosEbRLbNQzLpnKIkEdrPv7lOy9C27hHQ+Xp8a4MxAQ="
+  crossorigin="anonymous"></script>
+
+    <!-- bannerslide -->
+    <script src="./js/bannerslider.js"></script>
+
+    <!-- navtoggle -->
+    <script src="./js/navtoggle.js"></script>
+
+    <!-- allmenu Slide -->
+    <script src="./js/menuslider.js"></script>
+    
+    <!-- videoplay JS -->
+    <script src="./js/videoplay.js"></script>
+    
+    <!-- Swiper JS -->
+    <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+    
+
+    <!-- Initialize Swiper -->
+    <script>
+      var productSwiper = new Swiper(".productSwiper", {
+        slidesPerView: 1,
+        spaceBetween: 10,
+        pagination: {
+          el: ".swiper-pagination",
+          clickable: true,
+        },
+        breakpoints: {
+          "@0.00": {
+            slidesPerView: 1,
+            spaceBetween: 10,
+          },
+          "@0.75": {
+            slidesPerView: 2,
+            spaceBetween: 20,
+          },
+          "@1.00": {
+            slidesPerView: 3,
+            spaceBetween: 40,
+          },
+          "@1.50": {
+            slidesPerView: 4,
+            spaceBetween: 40,
+          },
+        },
+        pagination: {
+          el: ".swiper-pagination",
+          clickable: true
+        },
+      });
+      var eventSwiper = new Swiper(".eventSwiper", {
+        slidesPerView: 1,
+        spaceBetween: 10,
+        pagination: {
+          el: ".swiper-pagination",
+          clickable: true,
+        },
+        breakpoints: {
+          "@0.00": {
+            slidesPerView: 1,
+            spaceBetween: 10,
+          },
+          "@0.75": {
+            slidesPerView: 2,
+            spaceBetween: 20,
+          },
+          "@1.00": {
+            slidesPerView: 3,
+            spaceBetween: 40,
+          }
+        },
+        pagination: {
+          el: ".swiper-pagination",
+          clickable: true
+        },
+      });
+    </script>
+</body>
+</html>

@@ -1,0 +1,26 @@
+.banner .title-area {
+    width: 100%;
+    top: 30%;
+}
+.banner-content-list {
+    position: relative;
+}
+.banner-content-item {
+    position: absolute;
+    top: 0;
+    left: 0;
+    opacity: 0;
+    transition: opacity 0.5s;
+}
+.banner-content-item:first-child {
+    opacity: 1;
+}
+
+.banner-img {
+    opacity: 0;
+    transition: opacity 0.5s;
+}
+.banner-img:first-child {
+    opacity: 1;
+}
+
